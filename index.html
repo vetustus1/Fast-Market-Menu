@@ -25,7 +25,7 @@ body{margin:0;padding:0;font-family:Arial,sans-serif;background:linear-gradient(
 .input-group input[type="text"],.input-group select{width:100%;padding:12px;border:2px solid #ddd;border-radius:8px;font-size:1em}
 .input-row{display:grid;grid-template-columns:1fr auto;gap:15px;align-items:end}
 .checkbox-group{display:flex;align-items:center;gap:10px;padding:12px;background:#f8f9fa;border-radius:8px;border:2px solid #ddd}
-.checkbox-group input[type="checkbox"]{width:20px;height:20px;cursor:pointer;accent-color:#6B7D5C}
+.checkbox-group input[type="checkbox"]{width:20px;height:20px;cursor:pointer}
 .checkbox-group label{margin:0;cursor:pointer;user-select:none}
 .day-section{background:#f8f9fa;padding:25px;border-radius:12px;margin-bottom:20px;border-left:5px solid #6B7D5C}
 .day-section h3{color:#6B7D5C;margin-bottom:15px;display:flex;justify-content:space-between;align-items:center}
@@ -54,7 +54,7 @@ body{margin:0;padding:0;font-family:Arial,sans-serif;background:linear-gradient(
 .modal-content .order-summary hr{margin:15px 0;border:none;border-top:2px solid #ddd}
 .modal-btn{background:#6B7D5C;color:#fff;border:none;padding:15px 40px;border-radius:10px;font-size:1.1em;font-weight:bold;cursor:pointer;margin-top:20px}
 .modal-btn:hover{background:#1a1a1a}
-.cloud-badge{display:inline-block;background:#6B7D5C;color:#fff;padding:5px 15px;border-radius:15px;font-size:0.8em;margin-left:10px}
+.cloud-badge{display:inline-block;background:#28a745;color:#fff;padding:5px 15px;border-radius:15px;font-size:0.8em;margin-left:10px}
 .night-badge{background:#5a32a3;color:#fff;padding:3px 10px;border-radius:10px;font-size:0.85em;margin-left:5px}
 @media (max-width:768px){
 .header h1{font-size:2em;padding-right:40px}
@@ -73,9 +73,7 @@ body{margin:0;padding:0;font-family:Arial,sans-serif;background:linear-gradient(
 </div>
 
 <div class="header">
-<div style="margin-bottom:15px">
-<img src="Logo_FM.jpeg" alt="Fast Market" style="max-width:280px;height:auto;filter:drop-shadow(0 4px 8px rgba(0,0,0,0.4))">
-</div>
+<div style="margin-bottom:15px"><img src="Logo_FM.jpeg" alt="Fast Market" style="max-width:280px;height:auto;filter:drop-shadow(0 4px 8px rgba(0,0,0,0.4))"></div>
 <div class="subtitle">Menú Semanal Personalizado <span class="cloud-badge">☁️ CLOUD</span></div>
 <div class="description">Selecciona tus platillos - Cada día tiene opciones diferentes</div>
 </div>
@@ -137,7 +135,7 @@ body{margin:0;padding:0;font-family:Arial,sans-serif;background:linear-gradient(
 </div>
 
 <script>
-  https://script.google.com/macros/s/AKfycbwtUA98chAeN5WzBPltR0JE608mrXdWSZVdLtInS9sUpzkk2LL5vp6PngRh_e0JoRg/exec;
+var GOOGLE_SCRIPT_URL='https://script.google.com/macros/s/AKfycbyhk_durX7DT301eJ5cfgWui65eCEj82nOiKDu_0ariEqVspoZaTiuvwpKQSlTf_W8/exec';
 
 // MENÚ SEMANAL - Datos extraídos del Excel
 var menuSemanal = {
